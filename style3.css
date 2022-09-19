@@ -1,0 +1,215 @@
+#resume{
+    font-weight: 600;
+}
+.resume1{
+    font-size: 2vw;
+    margin-left: 30vw;
+    font-weight: 600;
+}
+.resume2{
+    margin-left: 30vw;
+}
+.resume3{
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    font-size: 1.4vw;
+}
+div[id="resume"]  hr{
+    width: 40vw;
+    margin-left:3px ;
+}
+.resume6{
+    margin-left: 90px;
+    display: list-item;
+    position: relative;
+}
+.normaltext{
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: large;
+}
+.resume6items2{
+    margin-top: 3vw;
+    position: absolute;
+    left: 40vw;
+    top: -2vw;
+}
+.coursebutton{
+    text-align: center;
+    padding-top: 0.5vw;
+    color: white;
+    width: 7vw;
+    height: 2vw;
+    font-weight: 500;
+    background-color: hsl(33, 89%, 61%);
+    border-radius: 100px;
+}
+.contactcontainer{
+    margin-top: 2vw;
+    width: 75vw;
+    display: flex;
+}
+.contactitem1{
+    margin-left: 30vw;
+    font-size: 2vw;
+    font-weight: 600;
+}
+.contactitem2{
+    margin-left: 30vw;
+}
+.contactbox1{
+    padding: 5vw 0 0 3vw;
+    width: 40vw;
+    height: 40vw;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.contactbox2{
+    padding: 5vw 0 0 3vw;
+    width: 40vw;
+    height: 40vw;
+    background-color: #FBF3E4;
+    font-size: 1vw;
+    color: black;
+}
+#message{
+    height: 4vw;
+    width: 24.5vw;
+    padding: 1vw 0 0 0.5vw;
+    font-size: 0.9vw;
+}
+.inputbox{
+    font-size: 0.8vw;
+    width: 25vw;
+    height: 2vw;
+    border-radius: 5px;
+}
+.contactform{
+    margin-left: 4vw;
+    line-height: 2vw;
+}
+.submitbutton{
+    color: #fff;
+    font-size: 1vw;
+    width: 13vw;
+    height: 3vw;
+    border-radius: 8px;
+    background-color: #FFB740;
+}
+.formhead{
+    color: #105652;
+    font-size: 2vw;
+    font-weight: 600;
+}
+label[class="formcommon"]::after{
+    content: '*';
+    color: red;
+    margin-left: 0.5vw;
+}
+.contactbox1item1{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.contactflex{
+    display: flex;
+    color: darkgray;
+}
+.contactbox1item2{
+    margin-top: 3.2vw;
+}
+div[class="contactbox1item2"] i{
+    margin-top: 3vw;
+    display: block;
+}
+.contacttext{
+    margin-left: 3vw;
+    margin-top: 3vw;
+}
+.contactbox1item3{
+    margin-top: 3vw;
+}
+.contactbox1item4{
+    margin-top: 3vw;
+}
+.contactbox1item5{
+    margin-top: 3vw;
+}
+div[class="contactbox1"] p{
+    margin-top: 3vw;
+    color: black;
+}
+p a{
+    margin-left: 1vw;
+    text-decoration: none;
+    color: inherit;
+}
+.footer{
+    margin-top: 4vw;
+    width: 100%;
+    height: 2vw;
+    background-color: #FBF3E4;
+    font-size: 1.3vw;
+    color: rgb(177, 170, 170);
+    padding-top: 2vw;
+    text-align: center;
+}
+.sidebar{
+    text-align: end;
+    display: none;
+    position: absolute;
+    right: -100vw;
+    width: 90vw;
+    transition: all .5s;
+}
+.sidebar ul{
+    list-style: none;
+    font-size: 1vw;
+}
+div[class="sidebar"] a{
+    padding-right: 1vw;
+    display: block;
+    color: #105652;
+    line-height: 3vw;
+    border-top: 1px solid white;
+    border-bottom:1px solid black ;
+    background-color: #fff;
+}
+#check{
+    position: absolute;
+    z-index: -2;
+    top: 2vw;
+    margin-left: 80vw;
+    display: none;
+}
+label #btn,label #cancel{
+    display: none;
+    right: 0vw;
+    width: 10vw;
+    text-align: end;
+    position: absolute;
+    cursor: pointer;
+}
+label #btn{
+    font-size: 2vw;
+    color: black;
+    transition: all .5s;
+}
+label #cancel{
+    transition: all .5s;
+    z-index: 3;
+    right: -100vw;
+    top: 0vw;
+    font-size: 2vw;
+    color: black;
+}
+#check:checked ~ .sidebar{
+    right: -9vw;
+}
+#check:checked ~ label #btn{
+    opacity: 0;
+}
+#check:checked ~ label #cancel{
+    right: 0vw;
+}

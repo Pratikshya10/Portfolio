@@ -1,0 +1,242 @@
+@media screen and (max-width: 1025px) {
+    label #btn{
+        color: #105652;
+        font-size: 5vw;
+        margin: 4vw 3vw 0 0;
+        position: fixed;
+        display: block;
+        width: 5vw;
+        z-index: 6;
+        right: 60px;
+    }
+    #check:checked ~ label #btn{
+        right: 0;
+    }
+    .sidebar{
+        background-color: #fff;
+        position: fixed;
+        height: 100vh;
+        display: block;
+        text-align: start;
+        font-size: 5vw;
+        z-index: 4;
+        border: 2px solid red;
+    }
+    label #cancel{
+        color: #105652;
+        font-size: 5vw;
+        margin: 5vw 5vw 0 0;
+        display: block;
+        position: fixed;
+        z-index: 6;
+    }
+    .itemcontainer{
+        display: none;
+    }
+    div[class="sidebar"] ul{
+        padding-top: 10vw;
+    }
+    div[class="sidebar"] a{
+    white-space: wrap;
+    padding-top: 4vh;
+    padding-left: 3vw;
+    display: block;
+    color: #105652;
+    font-size: 3vw;
+    height: 5vh;
+    line-height: 1vw;
+    border-top: 1px solid white;
+    border-bottom:1px solid darkgray ;
+    background-color: #fff;
+    }
+    .navbar{
+        height: 10vw;
+    }
+    .name{
+        padding-top: 1vw;
+        font-size: 5vw;
+    }
+    .introbox{
+        height: 100vh;
+    }
+    .introbox1{
+        position: absolute;
+        top: 15vh;
+        left: 5vw;
+        font-size: 5vw;
+    }
+    .introbox2{
+        position: absolute;
+        top: 22vh;
+        left: 15vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    .introbox3{
+        position: absolute;
+        top: 35vh;
+        left: 16vw;
+        font-size: 3vw;
+    }
+    .glowbutton{
+        padding-top: 1vh;
+        height: 5vh;
+        position: absolute;
+        top: 40vh;
+        left: 15vw;
+        font-size: 3.5vw;
+        border-radius: 10px;
+    }
+    .introbox4{
+        margin: 3vw 5vw 0 0;
+        width: 25vw;
+    }
+    .introbox5{
+        left: 50vw;
+        margin: 3vw 5vw 0 0;
+        width: 25vw;
+    }
+    .introbox6{
+        position: absolute;
+        top: 52.5vh;
+        left: -40vw;
+    }
+    div[class="introbox6"] img{
+        position: absolute;
+        display: block;
+        width: 65vw;
+        height: 45vh;
+    }
+    #about{
+        border-radius: 10px;
+        height: 100vh;
+        display: block;
+    }
+    .about1{
+        font-size: 4vw;
+        margin: 0;
+        padding: 0;   
+    }
+    .underline{
+        width: 20vw;
+        font-size: 4vw;
+        margin: 0;
+        padding:0;    
+    }
+    .about3 p{
+        position: relative;
+        left: -40vw;
+        font-size: 3vw;
+        line-height: 3vh;
+        margin: 0;
+        padding: 0;
+        width: 70vw;
+        height: 20vh;
+    }
+    .about4 img{
+        width: 60vw;
+        margin-left: 7vw;
+    }
+    .about5{
+        position: absolute;
+        top: 86vh;
+        font-size: 4vw;
+        left: 8vw;
+        width: 60vw;
+        height: 16vh;
+    }
+    #projects{
+        height: 45vh;
+        display: block;
+    }
+    .project1{
+        font-size: 4vw;
+        margin: 0;
+        padding: 0; 
+    }
+    #resume{
+        display: block;
+        line-height: 3vh;
+        height: 60vh;
+        font-size: 4vw;
+        margin-left: 40px;
+    }
+    .coursebutton{
+        font-size: 3vw;
+        width: 20vw;
+        height: 4vh;
+    }
+    .resume1{
+        font-size: 4vw;
+        margin-left: 2vw;
+        margin-top: 10px;
+    }
+    .resume2{
+        margin-left: 1vw;
+    }
+    .resume3{
+        font-size: 3vw;
+        margin-top: 40px;
+    }
+    .resume6{
+        margin-top: 20px;
+    }
+    .resume6items2{
+        position: absolute;
+        left: 10;
+        top: 10vh;
+    }
+    .contactitem1{
+        font-size: 4vw;
+        margin-left: 3vw;
+    }
+    .contactitem2{
+        margin-left: 3vw;
+        width: 28vw;
+    }
+    .contactcontainer{
+        display: block;
+        width: 70vw;
+    }
+    .contactbox1{
+        font-size: 2vw;
+        width: 70vw;
+        height: 40vh;
+    }
+    .contactbox1item1{
+        font-size: 3vw;
+        padding-bottom: 5vh;
+    }
+    .contactbox2{
+        width: 70vw;
+        height: 70vh;
+    }
+    .formhead{
+        font-size: 3vw;
+        padding-bottom: 1vh;
+    }
+    form[class="contactform"] label{
+        line-height: 5vh;
+        font-size: 2vw;
+        /* color: rgb(43, 36, 36); */
+    }
+    .inputbox{
+        width: 50vw;
+        height: 5vh;
+    }
+    #message{
+        font-size: 2.5vw;
+        width: 50vw;
+        height: 10vh;
+    }
+    .submitbutton{
+        margin-top: 3vh;
+        width: 35vw;
+        height: 5vh;
+        font-size: 3.5vw;
+    }
+    .footer{
+        font-size: 2vw;
+        height: 5vh;
+    }
+}

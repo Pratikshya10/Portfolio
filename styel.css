@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #EEEEEE;
+    border: 1px solid gray;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+div[class="itemcontainer"] a{
+    color: inherit;
+}
+.navbar{
+    z-index: 1;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: #F3F0D7;
+    display: flex;
+    height: 4vw;
+}
+.itemcontainer{
+    margin-left: 20vw;
+    display: flex;
+    justify-items: end;
+}
+.items{
+    text-decoration: none;
+    font-size: 1vw;
+    margin-top: 1vw;
+    margin-left: 4vw;
+}
+.name{
+    font-weight: 700;
+    font-size: 2.5vw;
+    margin-left: 8vw;
+    padding: 10px;
+    color: #105652;
+}
+.items:hover{
+    color: #FF9B6A;
+    cursor: pointer;
+}
+.introbox{
+    display: flex;
+    font-size: 1vw;
+    width: 100%;
+    height: 33vw;
+    background-color: #105652;
+    color: white;
+}
+div[class="introbox6"] img{ 
+   position: absolute;
+   width: 42vw;
+   top: 5vw;
+   left: 55vw;
+}
+.introbox1{
+    position: relative;
+    top: 7vw;
+    font-weight: 500;
+    font-size: 2vw;
+    color: #F4A442;
+    margin-left: 8vw;
+    padding: 10px;
+}
+.introbox2{
+    position: relative;
+    top: 9.5vw;
+    left: -21vw;
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.introbox3{
+    font-size: 1.1vw;
+    font-weight: 300;
+    position: relative;
+    top: 16vw;
+    left: -41vw;
+}
+.glowbutton{
+    border-radius: 30px;
+    text-shadow: 0 0 2vw currentColor;
+    padding: 0.9vw 0 0 0;
+    margin: 1vw 0 0 1vw;
+    position: relative;
+    top: 20vw;
+    left: -60vw;
+    text-align: center;
+    height: 2vw;
+    width: 9vw;
+}
+.introbox4{
+    background-color: #00A19D;
+    box-shadow: 0 1vw 4vw #00A19D;
+    transition: all 0.1s linear;
+    transform-origin: left top;
+}
+.introbox4:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.introbox5{
+    margin-left: 3vw;
+    background-color: hsl(33, 89%, 61%);
+    box-shadow: 0 1vw 4vw hsl(33, 89%, 61%);
+}
+.box{
+    margin: 5vw 0 0 7vw;
+    font-size: 1vw;
+    width: 75vw;
+    border-radius: 80px;
+    color: #105652;
+    /* border: 10px solid red; */
+}
+#about{
+    position: relative;
+    padding: 3vh 0 0 1vh;
+    box-shadow: 0 0 2vw darkgray;
+    height: 38vw;
+}
+.about1{
+    font-size: 2vw;
+    font-weight: 600;
+    
+}
+.underline{
+    width: 15vw;
+    background-color: hsl(33, 89%, 61%);
+    height: 0.5vw;
+}
+.aboutcommon{
+    margin: 0 10vw 0 40vw
+}
+.about3{
+    font-size: 1.1vw;
+    margin-top: 2vw;
+    line-height: 2vw;
+    font-weight: 400;
+}
+.about4 img{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    width: 35vw;
+}
+.about5{
+    background-color: #fff;
+    padding: 1vw 0 0 2vw;
+    top: 31vw;
+    border-radius: 30px;
+    left: 40vw;
+    position: absolute;
+    width: 27vw;
+    height: 6.5vw;
+    box-shadow: 0 0 1vw darkgray;
+}
+#project{
+    width: 85vw;
+    margin-left: 15vw;
+}
+.project3>img{
+    width: 25vw;
+    margin: 2vw 0 0 2vw;
+    border-radius: 50px;
+}
+a img{
+    transition: all .2s ;
+    display: inline-block;
+    margin: 3vw 0 0 2vw;
+    width: 21vw;
+    border-radius: 50px;
+}
+.project1{
+    font-size: 2vw;
+    font-weight: 600;
+    margin-left: 29vw;
+}
+.project2{
+    margin-left: 29vw;
+}
+div[class="project3"] img:hover{
+    scale: 1.1;
+    box-shadow: 0vw 0vw 2vw darkgray;
+}
+
